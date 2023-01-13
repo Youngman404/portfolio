@@ -13,8 +13,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "startcraco": "craco start",
     "build": "react-scripts build",
+    "buildcraco": "craco build",
     "test": "react-scripts test",
+    "testcraco": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.0.0"
   }
 }

@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Homepage from '@/pages/Homepage';
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
         >
           Learn React
         </a>
+        
         <p>Hello World</p>
+        <Homepage/>
       </header>
     </div>
   );
